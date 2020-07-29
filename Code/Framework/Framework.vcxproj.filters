@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="VulkanTools.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanDebug.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanUIOverlay.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanExampleBase.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="VulkanExampleBase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanAndroid.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="keycodes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanTools.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanInitializers.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanDebug.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanUIOverlay.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanBuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanDevice.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanSwapChain.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="benchmark.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{eadbf379-ccfd-4744-8b38-d7f65a0fc535}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
