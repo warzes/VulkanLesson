@@ -1,5 +1,7 @@
 /*
 минимальный пример работы с вулканом без лишнего
+
+Basic and verbose example for getting a colored triangle rendered to the screen using Vulkan. This is meant as a starting point for learning Vulkan from the ground up. A huge part of the code is boilerplate that is abstracted away in later examples.
 */
 #define VK_USE_PLATFORM_WIN32_KHR
 #define NOMINMAX

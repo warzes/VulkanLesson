@@ -27,6 +27,12 @@
     <ClCompile Include="imgui\imgui_demo.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="ktx\lib\checkheader.c" />
+    <ClCompile Include="ktx\lib\filestream.c" />
+    <ClCompile Include="ktx\lib\hashlist.c" />
+    <ClCompile Include="ktx\lib\memstream.c" />
+    <ClCompile Include="ktx\lib\swap.c" />
+    <ClCompile Include="ktx\lib\texture.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h" />

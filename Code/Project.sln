@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{BE1A7480-6CA1-46C3-9370-BC49A46C80ED}"
+	ProjectSection(SolutionItems) = preProject
+		ref.md = ref.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "engine", "engine", "{12DF810E-FA70-4F80-A24F-641305A6BB50}"
 EndProject
@@ -16,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_triangle", "01_triangle\
 		{8CE5FE01-6535-4B5F-B175-D6011907396B} = {8CE5FE01-6535-4B5F-B175-D6011907396B}
 		{66C95043-EBFC-4959-B69B-17BF9D125E97} = {66C95043-EBFC-4959-B69B-17BF9D125E97}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Pipelines", "02_Pipelines\02_Pipelines.vcxproj", "{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +54,14 @@ Global
 		{20D02973-6D91-44C3-B7DA-21F00610F514}.Release|x64.Build.0 = Release|x64
 		{20D02973-6D91-44C3-B7DA-21F00610F514}.Release|x86.ActiveCfg = Release|Win32
 		{20D02973-6D91-44C3-B7DA-21F00610F514}.Release|x86.Build.0 = Release|Win32
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Debug|x64.ActiveCfg = Debug|x64
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Debug|x64.Build.0 = Debug|x64
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Debug|x86.ActiveCfg = Debug|Win32
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Debug|x86.Build.0 = Debug|Win32
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Release|x64.ActiveCfg = Release|x64
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Release|x64.Build.0 = Release|x64
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Release|x86.ActiveCfg = Release|Win32
+		{3ABC0073-74FD-4EA4-AA22-FF17E4ABA750}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
